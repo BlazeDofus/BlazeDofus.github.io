@@ -1,1 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name's CS Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background-color: #002D62; /* A dark blue background */
+    color: #FFC72C; /* Yellow text for contrast */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    /* Added CSS for sticky footer */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
 
+header {
+    background-color: #FFC72C; /* Yellow header background */
+    color: #002D62; /* Dark blue text in header */
+    padding: 1rem 0;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+main {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+    /* Added CSS for sticky footer */
+    flex-grow: 1;
+}
+
+.project-card {
+    background: #00479E; /* A medium blue for project cards */
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.project-card h2 {
+    color: #FFC72C; /* Yellow for project titles */
+}
+
+.project-card p {
+    color: #fff; /* White text for project descriptions */
+}
+
+.project-card a {
+    display: inline-block;
+    background-color: #FFC72C; /* Yellow for the link button */
+    color: #002D62; /* Dark blue text on the button */
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 4px;
+    margin-top: 0.5rem;
+}
+
+.project-card a:hover {
+    background-color: #E6B800; /* A slightly darker yellow for hover effect */
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #FFC72C; /* Yellow footer background */
+    color: #002D62; /* Dark blue text in footer */
+    margin-top: 2rem;
+}
+</style>
+<body>
+    <header>
+        <h1>Welcome to My CS Portfolio</h1>
+        <p>A collection of projects from my computer science class.</p>
+    </header>
+
+    <main>
+        <section class="project-card">
+            <h2>Basketball Game</h2>
+            <p>A web-based basketball game featuring Indiana Pacers court design and unique movement mechanics.</p>
+            <!-- When you publish your game on GitHub Pages, link it here -->
+            <a href="./basketball-game/index.html">Play Game</a>
+        </section>
+
+        <!-- You can copy the section above to add more projects later -->
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Your Name. Hosted on [GitHub Pages](pages.github.com).</p>
+    </footer>
+</body>
+</html>
